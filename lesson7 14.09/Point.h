@@ -14,6 +14,7 @@ int GetYear() const;
     void SetMonth(int m);
     void SetYear(int y);
     void Print() const;
+int DaysInMonth() const;
     Date& operator--(int);
     Date& operator++(int);
     Date& operator+=(int a);
